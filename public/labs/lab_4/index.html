@@ -8,47 +8,47 @@
   <body>
     <h1>Reed Fodge's Lab 4</h1>
     <div id="container">
-      <form action='/api' method='post' class='web-form'>
-        <ul class="flex-outer">
+      <form action='/api' method='post' class='web-form' name="web-form">
+        <ul class="flex-outer" id='flex-outer'>
           <li>
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" placeholder="Enter your first name here">
+            <label for="fname" name="fnametxt" id="fnametxt">First Name</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter your first name here">
           </li>
           <li>
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" placeholder="Enter your last name here">
+            <label for="lname" name="lnametxt" id=="lnametxt">Last Name</label>
+            <input type="text" id="lname" name="lname" placeholder="Enter your last name here">
           </li>
           <li>
-            <label for="email">Email</label>
-            <input type="email" id="email" placeholder="Enter your email here">
+            <label for="email" name="emailtxt" id="emailtxt">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email here">
           </li>
           <li>
-            <label for="phone">Phone</label>
-            <input type="tel" id="phone" placeholder="Enter your phone here">
+            <label for="phone" name="phonetxt" id="phonetxt">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone here">
           </li>
           <li>
-            <label for="message">Message</label>
+            <label for="message" name="messagetxt" id="messagetxt">Message</label>
             <textarea rows="5" cols="33" id="message" name="message" placeholder="Enter some message here"></textarea>
           </li>
           <li>
             <p>Age</p>
-            <ul class="flex-inner">
+            <ul class="flex-inner" id='flex-inner'>
               <li>
-                <input type="checkbox" id="eighteen-to-thirtyfive">
-                <label for="eighteen-to-thirtyfive">18-35</label>
+                <input type="checkbox" id="eighteen-to-thirtyfive" name="18to35box">
+                <label for="eighteen-to-thirtyfive" name="18to35txt" id="18to35txt">18-35</label>
               </li>
               <li>
-                <input type="checkbox" id="thirtyfive-to-fifty">
-                <label for="thirtyfive-to-fifty">35-50</label>
+                <input type="checkbox" id="thirtyfive-to-fifty" name="35to50box">
+                <label for="thirtyfive-to-fifty" name="35to50txt" id="35to50txt">35-50</label>
               </li>
               <li>
-                <input type="checkbox" id="fifty-to-sixtyfive">
-                <label for="fifty-to-sixtyfive">50-65</label>
+                <input type="checkbox" id="fifty-to-sixtyfive" name="50to65box">
+                <label for="fifty-to-sixtyfive" name="50to65txt" id="50to65txt">50-65</label>
               </li>
             </ul>
           </li>
           <li>
-            <button type="submit">Submit</button>
+            <button type="submit" name="submit" id="submit">Submit</button>
           </li>
         </ul>
       </form>
