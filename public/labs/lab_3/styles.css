@@ -1,2 +1,32 @@
 /* Add some css styles based on the tutorial at javascript.info: introduction to browser events
  https://javascript.info/introduction-browser-events */
+
+body {
+  background-color: cyan;
+}
+
+.container {
+  margin: auto;
+  width: 400px;
+  padding: 10px 40px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.images {
+  width: 300px;
+  overflow: hidden;
+}
+
+.images ul {
+  height: 100px;
+  width: 721px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition: margin-left 250ms;
+}
+
+.images li {
+  display: inline-block;
+}
